@@ -1,0 +1,27 @@
+{
+  "name": "vuetify-md3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.25.2",
+    "@iconify-json/carbon": "^1.1.6",
+    "@types/node": "^18.0.0",
+    "eslint": "^8.18.0",
+    "pnpm": "^7.4.0",
+    "sass": "^1.53.0",
+    "typescript": "^4.7.4",
+    "vue": "^3.2.37",
+    "vue-tsc": "^0.38.2",
+    "vuetify": "3.0.0-beta.6"
+  },
+  "eslintConfig": {
+    "extends": "@antfu"
+  },
+  "author": "",
+  "license": "ISC"
+}
