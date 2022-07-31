@@ -5,9 +5,9 @@
 
 [![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine/)
 
-Restyled Vuetify 3 components to match MD3 spec [m3.material.io](https://m3.material.io/).
+Restyled [Vuetify 3](https://next.vuetifyjs.com/) components to match MD3 spec [m3.material.io](https://m3.material.io/).
 
-It respects the MD3 tokens and so you can use [Material Theme Builder](https://m3.material.io/theme-builder) to generate a theme for your project.
+It respects the [MD3 tokens](https://m3.material.io/foundations/design-tokens/overview) and so you can use [Material Theme Builder](https://m3.material.io/theme-builder) to generate a theme for your project.
 
 ## 💖 Funding
 
