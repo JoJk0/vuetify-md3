@@ -1,13 +1,13 @@
 <template>
-    <v-text-field class="md-outlined-text-field material-theme" variant="outlined"></v-text-field>
+  <VTextField class="md-outlined-text-field material-theme" v-bind="props" variant="outlined" />
 </template>
 
 <script lang="ts" setup>
-
-// const props = defineProps({});
+const props = defineProps({
+//   ...VTextField.props,
+} as typeof VTextField['props'])
 
 // const emit = defineEmits({});
-
 </script>
 
 <style lang="scss" scoped>

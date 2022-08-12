@@ -1,11 +1,12 @@
 <template>
-  <v-list-item
+  <VListItem
     class="md-navigation-drawer-item material-theme" :prepend-icon="prependIcon"
-    :append-icon="appendIcon" :title="title" :active="active" rounded="pill" :value="value"
+    :append-icon="appendIcon" :title="title" :active="active" rounded="pill" :value="value" :to="to"
   />
 </template>
 
 <script lang="ts" setup>
+import { VListItem } from 'vuetify/components'
 // const props = defineProps<typeof VListItem['']>()
 const props = defineProps({
   prependIcon: {
@@ -29,6 +30,10 @@ const props = defineProps({
     type: Boolean,
     default: false,
   },
+  to: {
+    type: Object,
+    default: undefined,
+  },
 })
 
 // const emit = defineEmits({});
@@ -46,6 +51,7 @@ const props = defineProps({
     padding-right: 12px;
     display: flex;
     gap: 12px;
+    background-color: transparent;
     >.v-list-item__overlay {}
 
     >.v-list-item__content {}

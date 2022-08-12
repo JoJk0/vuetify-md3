@@ -1,20 +1,17 @@
 <template>
-    <v-btn class="md-filled-button material-theme" rounded="pill" variant="flat">
-        <div class="container">
-            <slot></slot>
-        </div>
-    </v-btn>
+  <v-btn class="md-filled-button material-theme" rounded="pill" variant="flat">
+    <div class="container">
+      <slot />
+    </div>
+  </v-btn>
 </template>
 
 <script lang="ts" setup>
-import '../tokens/baseline.css';
 const props = defineProps({
 
-});
+})
 
 // const emit = defineEmits({});
-
-
 </script>
 
 <style lang="scss" scoped>

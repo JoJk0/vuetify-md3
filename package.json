@@ -19,6 +19,10 @@
     "vue-tsc": "^0.38.2",
     "vuetify": "3.0.0-beta.6"
   },
+  "exports": {
+    ".": "./index.ts",
+    "./styles": "./tokens/baseline.css"
+  },
   "eslintConfig": {
     "extends": "@antfu"
   },
