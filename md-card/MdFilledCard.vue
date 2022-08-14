@@ -1,5 +1,5 @@
 <template>
-  <VCard flat variant="flat" class="md-filled-card" hover rounded>
+  <VCard flat variant="flat" class="md-filled-card" rounded>
     <slot />
   </VCard>
 </template>
@@ -13,7 +13,7 @@ import { VCard } from 'vuetify/components'
 
 <style lang="scss" scoped>
 .md-filled-card {
-    background: var(--md-sys-color-surface-variant);
+    background-color: var(--md-sys-color-surface-variant);
     border-radius: var(--md-sys-shape-corner-medium-default-size);
     box-shadow: none;
 }

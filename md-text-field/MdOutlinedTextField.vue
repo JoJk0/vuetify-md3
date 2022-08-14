@@ -3,6 +3,7 @@
 </template>
 
 <script lang="ts" setup>
+import { VTextField } from 'vuetify/components'
 const props = defineProps({
 //   ...VTextField.props,
 } as typeof VTextField['props'])
