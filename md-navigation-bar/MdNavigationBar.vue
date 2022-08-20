@@ -20,3 +20,10 @@ import { VBottomNavigation } from 'vuetify/components'
     padding-bottom: 16px;
 }
 </style>
+
+<style lang="scss">
+.v-bottom-navigation__content {
+  justify-content: space-around;
+  gap: 4px;
+}
+</style>

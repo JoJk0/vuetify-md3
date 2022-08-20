@@ -1,22 +1,21 @@
 <template>
-  <v-btn class="md-tonal-button material-theme" rounded="pill" variant="tonal">
-    <div class="container">
-      <slot />
-    </div>
-  </v-btn>
+  <VBtn class="md-tonal-button material-theme" rounded="pill" variant="tonal">
+    <slot />
+  </VBtn>
 </template>
 
 <script lang="ts" setup>
-const props = defineProps({
+import { VBtn } from 'vuetify/components'
+// const props = defineProps({
 
-})
+// })
 
 // const emit = defineEmits({});
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .md-tonal-button {
-    background-color: var(--md-sys-color-secondary-container);
+    background-color: transparent;
     box-shadow: var(--md-sys-color-shadow);
     font-family: var(--md-sys-typescale-label-large-font);
     line-height: var(--md-sys-typescale-label-large-line-height);
@@ -28,8 +27,11 @@ const props = defineProps({
     height: 40px;
     padding-left: 24px;
     padding-right: 24px;
-
-    .container {
+    > .v-btn__underlay {
+      background-color: var(--md-sys-color-secondary-container);
+    }
+    > .v-btn__content {
+        padding: 0;
         display: flex;
         gap: 8px;
         color: inherit;

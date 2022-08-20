@@ -1,15 +1,16 @@
 <template>
-  <v-btn class="md-text-button material-theme" rounded="pill" variant="text">
+  <VBtn class="md-text-button material-theme" rounded="pill" variant="text">
     <div class="container">
       <slot />
     </div>
-  </v-btn>
+  </VBtn>
 </template>
 
 <script lang="ts" setup>
-const props = defineProps({
+import { VBtn } from 'vuetify/components'
+// const props = defineProps({
 
-})
+// })
 
 // const emit = defineEmits({});
 </script>
